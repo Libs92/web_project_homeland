@@ -1,44 +1,8 @@
-body{
-    background-color: #2A2C2F;
-}
-.page{
-max-width: 100%;
-margin: auto;
-font-family:"Inter-Regular", sans-serif;
-display: flex;
-flex-direction: column;
-color:#FFFFFF;
-background-color:#2A2C2F;
-font-size: 16px;
-line-height: 20px;
-}
-.header{
-
-}
-.header__logo{
-
-}
-.header__title{
-
-}
-.header__subtitle{
-
-}
-.header__image{
-
-}
-.main__title{
-
-}
-.main__paragraph main {
-
-}
-.main__paragraph_quote{
-
-}
-.main__paragraph_name{
-
-}
-.main__text{
-
-}
+@import url(../vendor/normalize.css);
+@import url(../vendor/fonts.css);
+@import url(../blocks/logo.css);
+@import url(../blocks/page.css);
+@import url(../blocks/header.css);
+@import url(../blocks/content.css);
+@import url(../blocks/main.css);
+@import url(../blocks/footer.css); 
