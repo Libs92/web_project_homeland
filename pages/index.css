@@ -7,7 +7,7 @@
 @import url(../blocks/main.css);
 @import url(../blocks/footer.css);
 
-.photo{
+.gallery{
 display: grid;
 grid-template-columns: repeat(4, 1fr);
 margin: auto;
@@ -16,4 +16,51 @@ gap: 16px;
 padding-top: 92px;
 padding-bottom: 92px;
 justify-items: stretch;
+}
+
+.places{
+    max-width: 990px;
+    display: flex;
+    gap: 80px;
+    margin: 0 auto 76px;
+    flex-direction: column;
+}
+.places__content{
+    display: grid;
+    max-width: 984px;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows:125px repeat(3, 1fr) 50px;
+    grid-gap: 48px 40px;
+
+    
+}
+.places__header{
+max-width: 460;
+height: 152;
+top: 2528px;
+left: 151px;
+;
+}
+
+.places__image{
+
+}
+.places__image-item{
+
+}
+.places__button{
+
+}
+
+.places__link{
+
+}
+.places__link-heading{
+
+}
+.places__link-artist{
+
+}
+.places__paragraph{
+
 }
