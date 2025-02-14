@@ -6,3 +6,14 @@
 @import url(../blocks/content.css);
 @import url(../blocks/main.css);
 @import url(../blocks/footer.css);
+
+.photo{
+display: grid;
+grid-template-columns: repeat(4, 1fr);
+margin: auto;
+max-width: 93%;
+gap: 16px;
+padding-top: 92px;
+padding-bottom: 92px;
+justify-items: stretch;
+}
