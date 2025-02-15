@@ -36,10 +36,13 @@ justify-items: stretch;
 }
 .places__header{
 max-width: 460;
-height: 152;
-top: 2528px;
-left: 151px;
-;
+height: max-content;
+font-family: "Inter-Black" sans-serif;
+font-family: Inter;
+font-weight: 900;
+font-size: 72px;
+line-height: 0.9;
+grid-column: 1/4;
 }
 
 .places__image{
