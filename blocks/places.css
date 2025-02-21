@@ -101,9 +101,7 @@ box-shadow: 10px 10px 25px rgba(0, 0, 0, 0.5);
         flex-direction: column; 
         align-items: center; 
     }
-}
 
-@media screen and (min-width: 320px) and (max-width: 544px) {
     .places__paragraph {
         max-width: 290px;
         grid-column: 1;
@@ -113,6 +111,9 @@ box-shadow: 10px 10px 25px rgba(0, 0, 0, 0.5);
     .places__image{
         grid-column: 1;
         grid-row: 2;
+    }
+    .places__content{ 
+        margin-left: auto; 
     }
 }  
 @media screen and (min-width: 320px) and (max-width: 544px) {

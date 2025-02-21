@@ -19,20 +19,17 @@
 }
 
 .main__paragraph_quote{
-    font-family: "Inter";
     font-size: 24px;
     padding: 0;
     line-height: 1.2;
 }
 .main__paragraph_name{
-    font-family: "Inter";
     font-size: 24px;
     padding: 0;
     text-align: right;
     max-width: 738px;
 }
 .main__text{
-    font-family: "Inter";
     font-size: 16px;
     font-weight: 400;
     padding: 0;
